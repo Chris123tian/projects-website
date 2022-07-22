@@ -1,0 +1,210 @@
+
+            .subscribe-button {
+                background-color: rgb(200, 0, 0);
+                color: white;
+                border: none;
+                height: 36px;
+                width: 105px;
+                border-radius: 2px;
+                cursor: pointer;
+                margin-right: 8px;
+                transition: opacity 0.15s;
+            }
+
+            .subscribe-button:hover {
+                opacity: 0.8;
+            }
+            .subscribe-button:activ {
+                opacity: 0.5;
+            }
+            
+            .join-button {
+                height: 36px;
+                width: 62px;
+                font-weight: bold;
+                background-color: white;
+                color: rgb(11, 93, 194);
+                border-color: rgb(41, 118, 211);
+                border-style: solid;
+                border-width: 1px;
+                border-radius: 2px;
+                cursor: pointer;
+                transition: background-color 1s;
+                transition:color 0.15s ;
+            }
+
+            .join-button:hover {
+                background-color: rgb(11, 93, 194);
+                color: white;
+            }
+            .join-button:active {
+                opacity: 0.7;
+            }
+            .tweet-button {
+                background-color: rgb(8, 143, 226);
+                color: white;
+                border: none;
+                height: 36px;
+                width: 74px;
+                border-radius: 18px;
+                font-weight: bold;
+                font-size: 15px;
+                cursor: pointer;
+                margin-left: 8px;
+                transition: box-shadow 0.15s;
+              
+            }
+
+            .tweet-button:hover {
+                box-shadow: 5px 5px 10px rgba(0,0,0,0.19);
+
+            }
+            .request-button {
+                height: 36px;
+                font-family: Arial;
+                font-size: 14px;
+                background-color: black;
+                color: white;
+                border: none;
+                border-radius: 3px;
+                margin-left: 8px;
+                cursor: pointer;
+                transition: opacity 0.15s;
+                margin-top: 20px;
+                margin-left: -2px;
+            }
+            .request-button:hover {
+                background-color: rgb(31, 29, 29);
+                color: white;
+            }
+            .request-button:active {
+                opacity: 0.7;
+            }
+
+            .add-button{
+                height: 36px;
+                width: 200px;
+                font-family: Arial;
+                font-size: 15px;
+                font-weight: bold;
+                background-color: yellow;
+                border-radius: 100px;
+                margin-top: 20px;
+                margin-right: 8px;
+                border: none;
+                cursor: pointer;
+                transition: opacity 0.15s;
+                transition: box-shadow 0.15s;
+            
+            }
+
+            .add-button:hover {
+                background-color: rgb(25, 199, 25);
+                color: black;
+                box-shadow: 5px 5px 10px rgba(0,0,0,0.19);
+
+            }
+
+            .add-button:active{
+                opacity: 0.7;
+            }
+            .request-add{
+                display: block;
+                width: 200pxpx;
+                margin-bottom: 20px;
+            }
+
+            .sign-button {
+                height: 36px;
+                font-family: Arial;
+                font-size: 14px;
+                font-weight: bold;
+                border-style: solid;
+                width: 70px;
+                border-radius: 5px;
+                border: 1px;
+                background-color: green;
+                color: white;
+                transition: opacity 0.15s;
+                transition:box-shadow 0.15s;
+
+            }
+            .sign-button:hover{ 
+                background-color: rgb(69, 131, 7);
+                color: white;
+                box-shadow: 5px,5px,10px rgba(0,0,0,0.19);
+            }
+            .sign-button:active{
+                opacity: 0.7;
+            }
+            .get-button{
+                height: 36px;
+                background-color: rgb(46, 38, 114);
+                color: white;
+                font-family: Arial;
+                font-size: 14px;
+                font-weight: bold;
+                border: none;
+                margin-left: 8px;
+                border-radius: 2px;
+
+            }
+            .download-button{
+                height: 36px;
+                color:rgb(109, 106, 106); 
+                width: 80px;
+                font-family: Arial;
+                font-size: 14px;
+                cursor: pointer;
+                border-radius: 2px;
+                border-style:solid;
+                transition: opacity 0.15s;
+                margin-left: -1px;
+
+            }
+
+            .download-button:hover {
+                background-color: rgb(175, 175, 175);
+                color: white;
+            }
+            .download-button:active {
+                opacity: 0.7;
+            }
+
+            .apply-button{
+                height: 36px;
+                background-color: rgb(40, 32, 112);
+                color: white;
+                margin-top: 20px;
+                border: none;
+                border-radius: 18px;
+                font-family: Arial;
+                font-size: 14px;
+                cursor: pointer;
+
+            }
+            .save-button{
+                height: 36px;
+                width: 66px;
+                border-color:rgb(41, 118, 211);
+                color: rgb(17, 68, 131);
+                font-family: Arial;
+                font-size: 14px;
+                font-weight: bold;
+                border-style: solid;
+                border-radius: 18px;
+                transition: opacity 0.15s;
+            }
+
+            .save-button:hover {
+                background-color: rgb(11, 93, 194);
+                color: white;
+            }
+            .save-button:active {
+                opacity: 0.7;
+            }
+
+            .apply-save{
+                display: block;
+                width: 300px;
+            }
